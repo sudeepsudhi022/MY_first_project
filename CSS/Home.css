@@ -1,0 +1,199 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    font-family:  monospace;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.sec1{
+    background-color: rgb(5, 113, 5);
+    color: white;
+
+}
+.head1 li{
+    margin-right: 25px;
+}
+.navbar-nav .nav-link .active a,.navbar-nav .nav-link:hover{
+    color: yellow;
+}
+/* .navbar-nav .nav-link .active .act a{
+    color: yellow;
+} */
+a.dropdown-item{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border: none;
+}
+a.dropdown-item:hover{
+    background-color: blue;
+    color: yellow;
+}
+p.p1{
+    text-align: justify;
+    padding-bottom: 15px;
+}
+/* form h3{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+
+} */
+.forminput{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px gray;
+}
+.register h3{
+    background-color: green;
+    color: white;
+    padding: 10px 0px;
+}
+form{
+    border: none;
+    /* box-shadow: 5px 5px 20px 10px gray; */
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+input.form-control{
+    padding: 10px;
+    /* border: 0.5px solid; */
+}
+textarea.form-control{
+    padding: 10px;
+    /* border: 0.5px solid; */
+}
+button.btn:hover{
+    background-color: blue;
+    color: yellow;
+}
+.sec2{
+    background-color: rgb(209, 202, 202);
+}
+img.card-img-top{
+    transition: 1s all linear;
+    
+}
+img.card-img-top:hover{
+    transform: scale(1.1);
+}
+.card{
+    margin-bottom: 30px;
+}
+table th{
+    background-color: blue;
+}
+div.div1{
+    width: 80%;
+}
+.sec3{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.8) 100%),url(../Im/home.jpeg);
+    background-size: cover;
+}
+div i.i1{
+    font-size: 50px;
+    color: white;
+}
+h4.i2 , #movies ,#movies1,#movies2,#movies3{
+    color: yellow;
+    font-size: 35px;
+}
+p.i2{
+    color: white;
+}
+div.card1{
+    border: none;
+}
+div.sec4{
+    background-color: #e8e8e8;
+}
+.sec5{
+    background-color: green;
+}
+p.p2{
+    text-align: justify;
+}
+div a.a1{
+    transition: 0.5s all linear;
+
+}
+div a.a1:hover{
+    color: yellow;
+    transform: skew(20deg);
+}
+p.p3{
+    padding-left: 37px;
+}
+span.p4{
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s all linear;
+}
+span.p4:hover{
+    background-color: yellow;
+    color: black;
+}
+.sec6{
+    background-color: rgb(13, 46, 13);
+    color: white;
+    padding-top: 20px;
+}
+button.stickybtn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    left: 0;
+    bottom: 5%;
+    position: fixed;
+    z-index: 1;
+}
+div button.stickybtn1{
+    position: fixed;
+    color: white;
+    background-color: rgb(44, 123, 157);
+    font-size: 30px;
+    padding: 20px;
+    border:  none;
+    border-radius: 80px;
+    right: 16px;
+    z-index: 3;
+    bottom: 10%;
+    
+}
+div button.stickybtn2{
+    position: fixed;
+    color: white;
+    background-color: yellow;
+    font-size: 30px;
+    padding: 10px;
+    border:  none;
+    right: 16px;
+    z-index: 3;
+    bottom: 0;
+}
+#userNote, #mailNote,#MobileNote,#selectNote,#FileNote,#SkillNote{
+    color: red;
+    font-family: monospace;
+    padding-top: 10px;
+}
+@media (max-width:1000px) {
+    .sec1{
+        display: none;
+    }
+    
+}
